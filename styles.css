@@ -1,5 +1,12 @@
+body {
+    background-color: rgba(0,0,0,0.8);
+}
 #links {
-    display: flexbox;
-    width: 100%;
-    align-items: end;
+    display: flex-box;
+    margin-bottom: 20px;
+    border: 1px white solid;
+    
+}
+#links > a {
+    
 }
