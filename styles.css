@@ -1,16 +1,17 @@
 body {
     width: auto;
+    font-family: 'Arial', Helvetica, sans-serif;
 }
 
 #links {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-bottom: 20px;
+    margin: 20px 0px 20px 0px;
 }
 
 #links>a {
-    padding: 0px 5px 0px 0px;
+    padding: 0px 10px 0px 0px;
     text-decoration: unset;
 }
 
@@ -19,36 +20,38 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 100px 0px 0px 0px;
+    margin: 25px 0px 0px 0px;
     border: 1px solid white;
 }
 
 .container>#googlelogo>img {
-    width: 300px;
-    height: 100px;
+    width: 279px;
+    height: 93px;
 }
 
-.container > #form {
-    align-items: center;
+.input-text, .input-submit {
+    margin: 30px;
 }
 
 input[type="text"] {
-    width: 600px;
-    height: 40px;
+    width: 591px;
+    height: 42px;
     border: 0.5px solid rgb(200, 200, 200);
     border-radius: 30px;
 
 }
 
 input[type="text"]:hover {
-    box-shadow: 0px 0px 2px rgb(255, 255, 255),
-        0px 0px 4px rgb(200, 200, 200),
-        0px 0px 6px rgb(100, 100, 100);
+    box-shadow: 0px 0px 1px rgb(255, 255, 255),
+        0px 0px 2px rgb(205, 205, 205),
+        0px 0px 4px rgb(155, 155, 155);
         ;
     border: 1px solid white;
     background-color: rgb(255, 255, 255, );
 }
 
 input[type="submit"] {
-    height: 40px;
+    height: 45px;
+    border: 0px;
+    background-color: rgb(210, 210, 210);
 }
