@@ -1,6 +1,7 @@
 body {
-    background-color: rgba(0,0,0,0.8);
+    width: auto;
 }
+
 #links {
     display: flex;
     flex-direction: row;
@@ -8,7 +9,7 @@ body {
     margin-bottom: 20px;
 }
 
-#links > a {
+#links>a {
     padding: 0px 5px 0px 0px;
     text-decoration: unset;
 }
@@ -16,17 +17,38 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
     justify-content: center;
     align-items: center;
-    margin: 50px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
+    border: 1px solid white;
 }
 
-.container > #googlelogo {
-    margin: 50px;
+.container>#googlelogo>img {
+    width: 300px;
+    height: 100px;
 }
 
 .container > #form {
-    
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 600px;
+    height: 40px;
+    border: 0.5px solid rgb(200, 200, 200);
+    border-radius: 30px;
+
+}
+
+input[type="text"]:hover {
+    box-shadow: 0px 0px 2px rgb(255, 255, 255),
+        0px 0px 4px rgb(200, 200, 200),
+        0px 0px 6px rgb(100, 100, 100);
+        ;
+    border: 1px solid white;
+    background-color: rgb(255, 255, 255, );
+}
+
+input[type="submit"] {
+    height: 40px;
 }
