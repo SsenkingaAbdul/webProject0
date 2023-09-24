@@ -41,10 +41,6 @@ body {
     box-sizing: border-box;
 }
 
-#gsearch,
-#feeling {
-    object-position: center;
-}
 
 input[type="text"] {
     width: 591px;
