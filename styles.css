@@ -29,6 +29,62 @@ body {
     height: 93px;
 }
 
+.container>#googlelogo>img,
+.container>#googlelogo>span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.span {
+    position: relative;
+    bottom: -36px;
+    text-indent: -63px;
+    color: rgb(80, 153, 221);
+}
+
+input[type="text"] {
+    display: inline-block;
+    position: relative;
+    width: 591px;
+    height: 42px;
+    border: 0.5px solid rgb(200, 200, 200);
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input[type="text"]:hover {
+    box-shadow: 0px 0px 1px rgb(255, 255, 255),
+        0px 0px 2px rgb(205, 205, 205),
+        0px 0px 4px rgb(155, 155, 155);
+    ;
+    border: 1px solid white;
+    background-color: rgb(255, 255, 255);
+
+}
+
+button[type="submit"] {
+    overflow: visible;
+    text-indent: -50px;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+
+button[type="submit"] > img{
+    position:relative;
+    height: 20px;
+    width: 30px;
+    background-attachment: local;
+    top: 4px;
+}
+
+button[type="submit"]>img:hover {
+    opacity: 1;
+}
+
 .input-submit {
     display: flex;
     flex-direction: row;
@@ -42,24 +98,10 @@ body {
 }
 
 
-input[type="text"] {
-    width: 591px;
-    height: 42px;
-    border: 0.5px solid rgb(200, 200, 200);
-    border-radius: 30px;
 
-}
-
-input[type="text"]:hover {
-    box-shadow: 0px 0px 1px rgb(255, 255, 255),
-        0px 0px 2px rgb(205, 205, 205),
-        0px 0px 4px rgb(155, 155, 155);
-    ;
-    border: 1px solid white;
-    background-color: rgb(255, 255, 255);
-}
 
 input[type="submit"] {
+    bottom: -10px;
     height: 36px;
     border: 0px solid rgb(255, 255, 255);
     margin: 0px 10px 0px 15px;
